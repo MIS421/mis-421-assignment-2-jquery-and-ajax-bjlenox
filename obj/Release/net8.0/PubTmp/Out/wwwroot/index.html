@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./jquery-ui.theme.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>BenSearch</title>
+
+</head>
+
+<body>
+
+    <script type="text/javascript" src="./script.js"></script>
+
+    <h1 onclick="changeImg()">BenSearch</h1>
+
+    <input type="text" id="query" name="query">
+
+    <button type="button" onclick="apiSearch()">Search</button>
+
+    <button type="button" onclick="whatTime()">Current time</button>
+
+
+    <div id="searchResults"></div>
+    <div id="time"></div>
+
+</body>
+
+</html>
